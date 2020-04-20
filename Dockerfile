@@ -9,3 +9,4 @@ RUN ./configure --prefix=/usr --libdir=/usr/lib64
 RUN make
 RUN make install
 RUN rm -rf isa-l
+RUN python3 -m pip install --upgrade pip
