@@ -1,3 +1,4 @@
+# adding comment to trigger image build.
 FROM registry.access.redhat.com/ubi8/ubi:latest
 RUN yum -y install git autoconf automake gcc libtool file diffutils make python3 python3-pip && yum clean all
 RUN git clone --branch v2.30.0 https://github.com/intel/isa-l.git
