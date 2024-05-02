@@ -1,4 +1,4 @@
-# Update comment on Feb 18  to kick off the image rebuild
+# Update comment on May 3  to kick off the image rebuild
 FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
 RUN microdnf -y install git autoconf automake gcc libtool file diffutils make xz bzip2 python3.11 python3.11-pip && microdnf clean all
 RUN git clone --branch v2.30.0 https://github.com/intel/isa-l.git
